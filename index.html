@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <title>Meu site</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div class="container-fluid bg-light">
+
+        <!-- Cabeçalho -->
+        <header class="row justify-content-center sticky-top">
+            <div class="col-12 col-md-12 text-white text-center p-4" style="background-color: black;">
+                <h1>Meu site</h1>
+            </div>
+
+            <div class="col-12 col-md-12 bg-dark text-white text-center p-2">
+                <ul class="nav justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link active text-info" href="#sobre">Sobre mim</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-info" href="#projetos">Projetos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-info" href="#contato">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+
+        <!-- Sobre Mim -->
+        <section id="sobre" class="">
+            <div class="row justify-content-center p-4">
+                <div class="col-lg-3 col-md-6 bg-light text-center p-2">
+                    <h1 class="p-2">Sobre mim</h1>
+                    <div class="justify-content-center align-items-center">
+                        <img class="mb-3 rounded-circle p-2" src="foto.jpg" alt="Imagem do criador, Lucas Calixto"
+                            style="height: 250px;">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 bg-light text-center p-2">
+                    <div class="card-body text-center">
+                        <p class="card-text p-4 text-center mt-5">Olá, meu é Lucas Calixto de Souzo, tenho 17 anos, sou
+                            de Joinville e atualmente faço Técnico de Desenvolvimento de Sistema</p>
+                    </div>
+                </div>
+        </section>
+
+        <!-- Projetos -->
+        <section id="projetos" class="bg-light">
+            <div class="container">
+                <h1 class="text-center p-3">Projetos</h1>
+                <div class="row p-4">
+                    <div class="col-lg-4 col-md-12 p-3">
+                        <div class="card-body bg-info text-white text-center" style="border-radius: 20px; height: 580px;">
+                            <h5 class="card-title">Projeto 1</h5>
+                            <img src="fotoprojeto.webp" class="card-img-top mt-4 mb-3" alt="Foto do projeto"
+                                style="width: 250px; height: 240px;">
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
+                                molestiae nulla neque beatae! Voluptates excepturi atque explicabo non, dolorum adipisci
+                                nemo fugiat cumque dolorem assumenda enim omnis! Error, fugiat odio?</p>
+                            <div class="text-center">
+                                <button class="btn btn-primary">Visitar</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 p-3">
+                        <div class="card-body bg-info text-white text-center" style="border-radius: 20px; height: 580px;">
+                            <h5 class="card-title">Projeto 2</h5>
+                            <img src="fotoprojeto.webp" class="card-img-top mt-4 mb-3" alt="Foto do projeto2"
+                                style="width: 250px; height: 240px;">
+                            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam
+                                quidem quasi tempora officiis? Vero, quasi. Quibusdam nihil ducimus, atque molestiae
+                                incidunt placeat ipsam, ipsa veritatis ab dicta maxime officia debitis.</p>
+                            <div class="text-center">
+                                <button class="btn btn-primary">Visitar</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 p-3">
+                        <div class="card-body bg-info text-white text-center" style="border-radius: 20px; height: 580px;">
+                            <h5 class="card-title">Projeto 3</h5>
+                            <img src="fotoprojeto.webp" class="card-img-top mt-4 mb-3" alt="Foto do projeto3"
+                                style="width: 250px; height: 240px;">
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate
+                                deserunt explicabo aliquid corporis facere voluptatum? Omnis aspernatur maiores
+                                voluptates, recusandae, excepturi sit, ducimus in magnam quidem pariatur aperiam
+                                incidunt quod!</p>
+                            <div class="text-center">
+                                <button class="btn btn-primary">Visitar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="row justify-content-center">
+            <div class="col-8 col-md-6">
+                <div id="success-message" class="alert alert-success d-none">
+                    <p>Sua mensagem foi enviada com sucesso! 🎉</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-8 col-md-6">
+                <div id="alert-message" class="alert alert-danger d-none" role="alert">
+                    <p>Selecione uma opção para receber a resposta</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-8 col-md-6">
+                <div id="alert-message-zap" class="alert alert-danger d-none" role="alert">
+                    <p>A opção de WhatsApp esta ativada, por favor, preencha o campo correspondente</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-8 col-md-6">
+                <div id="alert-message-erronumber" class="alert alert-danger d-none" role="alert">
+                    <p>Por favor, insira um número de WhatsApp válido com 11 dígitos.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contato -->
+        <section id="contato-form" class="bg-light p-4">
+            <div class="row">
+                <div class="col-12 col-md-12">
+                    <form class="container mt-4 mb-5">
+                        <h1>Entre em Contato</h1>
+                        <div class="mb-3">
+                            <label class="form-label">Nome:</label>
+                            <input type="text" class="form-control" placeholder="Digite seu nome" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">E-mail:</label>
+                            <input type="email" class="form-control" placeholder="seuemail@exemplo.com" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Contato:</label>
+                            <input id="contatozap" type="tel" class="form-control" placeholder="(47) 9 9999-9999">
+                        </div>
+
+                        <div class="">
+                            <label class="form-label">Região de SC</label>
+                            <br>
+                            <select class="form-select mb-4" required>
+                                <option value="">Selecione sua região</option>
+                                <option value="1">Norte</option>
+                                <option value="2">Vale</option>
+                                <option value="3">Leste</option>
+                                <option value="4">Sul</option>
+                                <option value="5">Planalto</option>
+                                <option value="6">Oeste</option>
+                            </select>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Mensagem:</label>
+                            <textarea class="form-control" rows="4" placeholder="Digite sua mensagem" required></textarea>
+                        </div>
+
+                        <div class="mb-3" id="opcao">
+                            <label class="form-label">Você gostaria de receber uma resposta por: </label>
+                            <br>
+                            <input id="checkbox1" type="checkbox" name="opcao1" value="valor1" class="mr-2"> whatsapp
+                            <br>
+                            <input id="checkbox2" type="checkbox" name="opcao1" value="valor1" class="mr-2"> email
+                        </div>
+
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Rodapé -->
+        <footer class="row justify-content-center">
+            <div class="col-12 col-md-12 bg-dark text-white text-center p-4">
+                <a href="https://github.com/luc4as-calixto" class="text-white p-4">Github</a>
+                <a href="https://br.linkedin.com/in/lucascalixtodesouza" class="text-white p-4">Linkedin</a>
+                <p> © 2025 Site de Lucas Calixto. Todos os direitos reservados.</p>
+            </div>
+        </footer>
+
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <script>
+        window.document.getElementById('contato-form').addEventListener('submit', function (event) {
+            event.preventDefault(); // Evita recarregar a página
+
+            // Apaga qualquer mensagem de erro ou sucesso antes de validar
+            window.document.getElementById('alert-message').classList.add('d-none');
+            window.document.getElementById('alert-message-zap').classList.add('d-none');
+            window.document.getElementById('alert-message-erronumber').classList.add('d-none');
+            window.document.getElementById('success-message').classList.add('d-none');
+
+            var check = window.document.getElementById('checkbox1').checked;
+            var check2 = window.document.getElementById('checkbox2').checked;
+            var whatsapp = window.document.getElementById('contatozap').value;
+
+            // Remove qualquer caracter não numérico (como (), -, etc.)
+            var whatsapp = whatsapp.replace(/\D/g, '');
+            // Expressão regular para verificar se o número contém apenas 11 dígitos numéricos
+            var regex = /^[0-9]{11}$/;
+
+
+
+            if (check && whatsapp === '') {  // Se o checkbox do WhatsApp estiver ativado e o campo estiver vazio
+                window.document.getElementById('alert-message-zap').classList.remove('d-none');
+            } else if ((check && whatsapp !== '') || check2) {  // Se o checkbox do WhatsApp estiver ativado e o campo preenchido, ou o checkbox2 estiver ativado
+                if (check && !regex.test(whatsapp)) {
+                    // Exibe a mensagem de erro
+                    window.document.getElementById('alert-message-erronumber').classList.remove('d-none');
+                } else {
+                    // Oculta as mensagens de erro
+                    window.document.getElementById('alert-message-erronumber').classList.add('d-none');
+                    // Exibe a mensagem de sucesso
+                    window.document.getElementById('success-message').classList.remove('d-none');
+                    // Limpa os campos do formulário
+                    window.document.getElementById('contato-form').reset();
+                }
+            } else {
+                window.document.getElementById('alert-message').classList.remove('d-none');
+            }
+        });
+    </script>
+
+</body>
+
+</html>
